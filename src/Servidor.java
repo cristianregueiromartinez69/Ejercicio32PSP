@@ -4,9 +4,8 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.security.KeyStore;
-import java.security.KeyStoreException;
 
-public class Main {
+public class Servidor {
     public static void main(String[] args) throws Exception {
 
         String keystorePath = System.getProperty("keystore", System.getProperty("user.home") + "/keystore.jks");
